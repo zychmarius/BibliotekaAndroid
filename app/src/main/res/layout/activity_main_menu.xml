@@ -4,6 +4,45 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainMenu">
+    tools:context=".screens.MainMenu">
 
+    <LinearLayout
+        android:layout_width="367dp"
+        android:layout_height="428dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginStart="9dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/searchBooks"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:onClick="clickSearchBooks"
+            android:text="Search books" />
+
+        <Button
+            android:id="@+id/loanStatus"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:onClick="clickLoanStatus"
+            android:text="loan status" />
+
+        <Button
+            android:id="@+id/orders"
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:onClick="clickOrders"
+            android:text="orders" />
+
+        <Button
+            android:id="@+id/settings"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:onClick="clickSettings"
+            android:text="settings" />
+    </LinearLayout>
 </android.support.constraint.ConstraintLayout>

@@ -1,13 +1,15 @@
-package pl.mmdevs.bibslapp;
+package pl.mmdevs.bibslapp.screens;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class MainMenu extends AppCompatActivity {
+import pl.mmdevs.bibslapp.R;
+
+public class OrdersScreen extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_menu);
+        setContentView(R.layout.activity_orders_screen);
     }
 }
